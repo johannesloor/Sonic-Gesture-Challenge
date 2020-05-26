@@ -13,12 +13,15 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 1rem;
   text-align: center;
 }
 
 .text-width {
   max-width: 800px;
+}
+
+#description {
+  margin: 0 1rem;
 }
 
 #links {
