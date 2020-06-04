@@ -28,17 +28,31 @@ body {
   text-decoration: none;
 }
 
+.linkWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .link {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 1rem 0.5rem;
+  margin: 0.3rem;
   text-align: center;
   border-radius: 10px;
   width: 20vh;
   height: 20vh;
   cursor: pointer;
   background-color: rgb(255, 228, 77);
+}
+
+.codeLink {
+  height: auto;
+  margin-bottom: 2rem;
+  font-size: 0.7rem;
+  background-color: rgb(236, 171, 85);
+  padding: 5px 0;
 }
 
 a {
@@ -72,5 +86,11 @@ a {
     width: 80vw;
     height: 80vw;
     font-size: 2rem;
+  }
+  .codeLink {
+    height: auto;
+    width: 60vw;
+    font-size: 1rem;
+    padding: 5px;
   }
 }
